@@ -1,0 +1,5 @@
+zone "lab.jdawson10.300.ops" {
+	type secondary;
+	file "/var/cache/bind/db.lab.jdawson10.300.ops";
+	primaries { 192.168.9.10; };
+};
